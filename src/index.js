@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// begin::Import bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+// end::Import bootstrap
+import './styles/index.css';
+// begin::Main
 import App from './App';
+// end::Main
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <App />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
 
